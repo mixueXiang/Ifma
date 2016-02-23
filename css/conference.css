@@ -1,0 +1,125 @@
+/* CSS Document */
+
+.center { 
+	text-align:center;
+}
+#con_content,.con_download a{
+	border-radius:6px;
+	border:1px solid #ccc;
+}
+#con_content {
+	background:#faf9fb;
+	width:900px; 
+	margin:20px auto; 
+	border-radius:6px;
+	box-shadow:0 0 5px #cccccc;  
+} 
+#con_content .label { 
+	font-size:20px; 
+	letter-spacing:2px; 
+	font-weight:bold; 
+	padding:0 20px;
+	line-height: 40px;
+ }
+#con_content .line { 
+	width:900px; 
+	height:1px;
+	overflow:hidden; 
+	background-color:#cccccc; 
+	display:block;
+}
+.con_place { 
+	display:block;
+	padding:20px 20px 0 20px;
+}
+.table { 
+	width:858px;
+	margin:20px 20px;
+	color:#5e5c5f;	
+	border-collapse: collapse; 
+	padding: 0; border:0；
+}
+td,.table p,.con_place {
+	line-height:25px;
+	font-size:18px;
+}
+.head {
+	background-color:#CCCCCC;
+	line-height:30px;
+	font-size:20px;
+} 
+.time { 
+	width:20%; 
+}
+.programe,tr,td,.time { 
+	border:1px solid #cccccc;
+}
+.con_download {	
+	font-size:16px;
+	line-height:40px;
+	padding:0 20px 20px;
+	margin:0 auto;
+}
+.con_download_chinese {
+	width:120px;
+	height:40px;
+}
+.con_download_english {
+	width:200px;
+	height:40px;
+	margin-top:20px;
+}
+.con_download a { 
+	text-align:center;
+	display:block;
+	background-color:#fff;
+ }
+.con_download a:hover {
+	height:35px;
+	line-height:35px;
+	position:relative;
+	top:3px;
+	left:3px；
+}
+.con_download_chinese a:hover {
+	width:115px;
+}
+.con_download_english a:hover {
+	width:195px;
+}
+#foot {
+	margin-top: 20px;
+	width: 100%;
+	height: 250px;
+	background: #0d3351;
+	color: #fff;
+}
+.foot_wrap {
+	margin: 0 auto;
+	padding-top:30px; 
+	width: 400px;
+	height: 50px;
+	
+}
+#foot img{
+	float: left;
+}
+.i_number {
+	font-size: 18px;
+	float: left;
+	padding-top: 15px;
+}
+#foot dl {
+	margin: 0 auto;
+	width: 300px;
+}
+#foot dt,dd {
+	float: left;
+}
+#foot dt {
+	width: 90px;
+}
+
+
+
+

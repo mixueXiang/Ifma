@@ -1,0 +1,92 @@
+html,body{
+	width: 100%;
+	margin: 0px auto;
+}
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+a { text-decoration: none;}
+.clear:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+
+.clear { zoom:1;width:900px; margin: 0 auto;}
+.content h2{width:900px; margin:15px auto;}
+.content {
+	margin: 0 auto;
+	width: 1300px;
+}
+.Wrapper {
+	width: 900px;
+	margin: 0 auto;
+}
+
+  #mapWrap {margin: 10px 10px auto 100px;}
+
+.strategy {
+	width: 900px;
+   height:500px;
+
+	margin: 20px auto;
+
+}
+
+.strategy li {
+	display: inline-block;
+	float: left;
+	width: 270px;
+	margin-right: 30px;
+}
+.strategy li img {
+	width: 270px;
+	height: 230px;
+}
+.strategy li dl {
+	margin: 20px auto 10px auto;
+	width: 250px;
+}
+.strategy li dl dt a,.strategy li dl dt {
+	color: #4682B4;
+	width: 70px;
+	height:auto;
+}
+.strategy li dl dd {
+	margin: 5px 0px;
+	width: 230px;
+	line-height: 20px;
+	font-size: 16px;
+	height:auto;
+	color: #5c5c5c;
+}
+
+#scenery {
+	float: left;
+}
+#scenery {
+	margin-right: 20px;
+}
+
+
+}
+.tranffic{width:900px;height:300px;margin: 0px auto;}
+.traffic_title {
+	font-weight: bold;
+	font-size:22px;
+	display:block;
+	margin-bottom: 20px;
+}
+.public_trafficRoute {
+	font-size:20px;
+	font-weight:bold;
+	margin-left:10px;
+}
+.tranffic p {
+	font-size:18px;
+	font-weight:bold;
+	line-height: 25px;
+	margin-left:22px;
+}

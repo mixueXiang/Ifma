@@ -1,0 +1,93 @@
+ul {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+.clear:after{
+	content: '';
+	display: block;
+	clear: both;
+}
+.clear { zoom:1; }
+
+
+
+.content {
+	margin: 0 auto;
+	width: 1000px;
+}
+.instract{
+	width:470px;
+	height:50px;
+	font-size: 20px;
+	background-color: #e6e9eb;
+	text-align: center;
+	border-radius: 10px;
+	position: relative;
+}
+.expert{
+	width:450px;
+}
+.expert img{float:left;margin-right:10px;}
+#i_ul {
+ 	margin: 20px auto;
+ 	width: 1000px;
+}
+#i_ul li {
+	border-radius: 10px;
+	width: 470px;
+	height:auto;
+	float: left;
+	margin: 5px;
+	border:1px dotted #ccc;
+}
+.i_left {
+	float: left;
+	width:230px;
+}
+#i_ul p {
+	margin: 5px 0px;
+	line-height: 25px;
+	width: auto;
+	text-indent: 0px;
+	font-size: 16px;
+	line-height: 25px;
+	color: #030303;
+}
+
+
+
+#i_ul .i_introduce {
+	margin-top: 10px;
+	height: 40px;
+	width: 100px;
+	line-height: 40px;
+	text-indent: 10px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.i_number {
+	font-size: 18px;
+	float: left;
+	padding-top: 15px;
+}
+
+.index_title {
+	background:#EBEBEB;
+	height:50px;
+	line-height:50px;
+	vertical-align:middle;
+	border-radius:15px 15px 0px 0px;
+	padding-left:440px;
+	color:#3E3E3E;
+	font-size:32px;
+}
+/*报告二待定*/
+.expert_two{
+	margin: 5px 0px 0px 0px;
+	padding:0px;
+	height:570px;
+	background-color: #d7f1ef;
+}

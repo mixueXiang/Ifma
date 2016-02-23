@@ -1,0 +1,39 @@
+/*css*/
+#article_main{
+	width:900px;
+	height:auto;
+	border: 1px solid #ccc;
+	border-radius: 10px;
+	box-shadow:0px 5px 8px 1px #666;
+	margin: 20px auto;
+	text-indent: 15px
+}
+#article_main ul{
+	list-style:none;
+	margin:0px;
+	padding:0px;
+}
+#article_main ul li{list-style: none;}
+/*info*/
+.info{
+	display:block;
+	width:900px;
+	margin-top:10px;
+}
+.info a{
+	height:50px;
+	font-size: 25px;
+	display:block;
+	color:red;
+	margin:0px;
+	padding:0px;
+	font-weight: bold;
+}
+#article_main dl dt{text-indent: 20px;font-size: 20px;font-weight: bold;}
+#article_main dd{line-height: 20px;color:#4b4c4d;width: 900px;margin: 5px;text-indent: 30px;}
+.download a{
+	text-decoration: none;
+	font-size: 22px;
+	color:red;
+	font-weight: bold;
+}

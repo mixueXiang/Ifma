@@ -1,0 +1,85 @@
+
+#main {
+	padding-top: 20px;
+	margin: 0 auto;
+	width: 1100px;
+	height: auto;
+	font-family: "宋体";
+}
+#left{
+	float:left;
+	width:600px;
+	height:auto;
+	margin-bottom:20px;
+	border:1px solid #ccc;
+	border-radius: 10px;
+	box-shadow:0px 2px 5px 1px #666;
+}
+
+h3{margin: 0px;text-indent: 20px;
+	font-size: 22px;padding:10px 0px 10px 0px;
+	background-color:#dfeef4;border-radius: 5px;}
+#meeting{
+	height: auto;
+	margin-bottom: 10px;
+}
+/*会议安排css*/
+#meeting img{margin:10px 20px 5px 0px;height:300px;width:320px;float:left;}
+#meeting ul{list-style:none;margin:0px;padding:0px;font-size: 18px;color: #5e5c5f;text-indent: 15px;}
+#meeting ul li{width:auto;line-height:35px;text-indent: 15px;}
+#meeting p{
+	text-indent: 10px;
+	font-size: 18px;
+	color: #5e5c5f;
+	margin-left: 20px;
+	line-height: 30px;
+	padding-right: 10px;
+}
+#right{
+	width:475px;
+	height: auto;
+	float: right;
+}
+#committee,#working,#academic,#organization{
+	height:auto;
+	margin-bottom: 10px;
+	border-radius: 10px;
+	border:1px solid #ccc;
+	box-shadow:0px 2px 5px -1px #666;
+}
+#organization .indent{
+	text-indent: 20px;
+}
+#organization ul,#committee ul,#working ul,#academic ul{
+	margin: 0px;
+	padding-left:10px;
+	height:auto;
+}
+#organization ul li,#committee li,#working li,#academic p{
+	list-style: none;
+	line-height: 30px;
+	font-size: 18px;
+	color: #5e5c5f;
+	line-height: 27px;
+}
+.space{text-indent:90px;}
+.space_li{text-indent:70px;}
+#unit{
+	overflow: hidden;
+	margin-top:30px;
+	padding: 0px;
+	width:600px;
+	height: 100px;
+	position:relative;
+	border-top: 1px solid #ccc;
+	border-radius: 7px;
+	box-shadow:2px 2px 4px -1px #666;
+}
+#unit ul{list-style-type: none;position: absolute;left:0px;}
+#unit ul li{float: left;width:310px;height:60px;}
+#unit img{float: left;margin: 0px 20px;z-index: -1;list-style-image: none;width:auto;height:60px;}
+#committee ul li ul{
+	list-style-type: none;
+	padding: 0px;
+	margin:0px;
+}

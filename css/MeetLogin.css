@@ -1,0 +1,129 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+table,h1 {
+	margin:0px auto;
+	padding:0px;
+	font-family:"微软雅黑";
+}
+.Login_content {
+	border:1px #CCC solid;
+	width:970px;
+	/*height:1200px;*/
+	margin:20px auto;
+	border-radius:15px;
+	box-shadow:0px 5px 8px 1px #666;
+	overflow:hidden;
+	}
+.login_title {
+	background:#EBEBEB;
+	height:50px;
+	line-height:50px;
+	vertical-align:middle;
+	border-radius:15px 15px 0px 0px;
+	/*padding-left:440px;*/ text-align:center;
+	color:#3E3E3E;
+	font-size:32px;
+	}
+.login-table {
+	clear:both;
+	overflow:hidden;
+	height:auto;
+	
+	}
+.login_information1,.login_information2 { 
+	margin-top:20px;
+	margin-left:60px;
+	float:left;
+	overflow:hidden;
+}
+.login_information2 {
+	margin-left:200px;
+	}
+.login_information1 tr td,.login_information2 tr td{
+	height:40px;
+	text-align:center;
+	}
+.login_atta {
+	text-indent: 350px;
+		margin:20px;
+		font-size: 22px;
+}
+.important_mark {
+	color:#F00;
+	font-size:14px;
+	}
+.loginbtn {
+	background:#03C;
+	width:90px;
+	height:30px;
+	margin-left:430px;
+	color:#fff;
+	padding:10px 0px 10px 35px;
+	font-size:24px;
+	}
+.loginbtn:hover {
+	background:#06F;
+	}
+
+.remark_information {
+	padding-left:35px;
+	display:block;
+	width:900px;
+	margin: 0px 5px;	
+}
+.remark_information p{
+	font-size: 20px;
+	padding: 3px;
+	width:900px;
+	height:auto;
+}
+.remark_information dl{
+	padding-left:35px;
+	width:1000px;
+	margin: 2px auto;
+	/*height:200px;*/
+}
+.remark_information dl dt{
+	width:300px;
+	lheight: 30px;
+	font-size: 20px;
+	margin: 2px;
+}
+.remark_information dl dd{
+	text-indent: 5px;
+	width:400px;
+	font-size: 18px;
+	height:auto;
+	margin-bottom: 20px;
+}
+#accomm{
+	width:900px;
+	height:auto;
+	margin: 10px auto;
+
+}
+#accomm p{
+	/*padding-left: 220px;*/ 
+    text-align:center;
+}
+#accomm table tr{
+	text-align:center;
+	width:700px;
+	line-height: 40px;
+}
+#accomm table tr td,#accomm table tr th{
+	width:200px;
+	border-collapse: collapse;
+	border:1px solid #ccc;
+}
+#accomm ul{
+	padding-left: 250px;
+	width:900px;
+	list-style:none;
+}
+#accomm ul li{
+	width: 650px;
+	line-height:45px;
+	font-size: 20px;
+}
